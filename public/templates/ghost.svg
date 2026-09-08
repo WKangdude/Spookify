@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+      <defs>
+        <filter id="ghost-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#22c55e" flood-opacity="0.35"/>
+        </filter>
+        <linearGradient id="ghost-sheet" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#ffffff"/>
+          <stop offset="70%" stop-color="#e0f2fe"/>
+          <stop offset="100%" stop-color="#bae6fd"/>
+        </linearGradient>
+      </defs>
+      <g filter="url(#ghost-shadow)">
+        <!-- Ghostly floating wavy sheet -->
+        <path d="M190 190 Q120 250 110 370 Q105 440 140 500 Q170 550 200 490 Q230 550 260 490 Q290 550 320 490 Q350 550 380 490 Q400 430 390 370 Q380 250 310 190 Z" fill="url(#ghost-sheet)" stroke="#110522" stroke-width="6" stroke-linejoin="round"/>
+
+        <!-- Cute Floating arms -->
+        <path d="M140 280 Q100 270 90 290 Q85 310 110 320 Q135 320 150 310" fill="#f0f9ff" stroke="#110522" stroke-width="5"/>
+        <path d="M360 280 Q400 270 410 290 Q415 310 390 320 Q365 320 350 310" fill="#f0f9ff" stroke="#110522" stroke-width="5"/>
+
+        <!-- Pumpkin Trick-or-Treat Bucket held in front -->
+        <ellipse cx="250" cy="380" rx="65" ry="50" fill="#ea580c" stroke="#110522" stroke-width="5"/>
+        <!-- Pumpkin ridges -->
+        <path d="M250 330 Q225 380 250 430" stroke="#c2410c" stroke-width="5" fill="none"/>
+        <path d="M250 330 Q275 380 250 430" stroke="#c2410c" stroke-width="5" fill="none"/>
+        <!-- Jack-o-lantern face on bucket -->
+        <polygon points="230,365 240,378 220,378" fill="#110522"/>
+        <polygon points="270,365 280,378 260,378" fill="#110522"/>
+        <polygon points="250,382 255,390 245,390" fill="#110522"/>
+        <path d="M230 400 Q250 418 270 400" stroke="#110522" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <!-- Bucket handle -->
+        <path d="M195 365 Q250 300 305 365" stroke="#110522" stroke-width="5" fill="none"/>
+
+        <!-- Sparkles / Candy spilled -->
+        <circle cx="205" cy="420" r="7" fill="#a855f7" stroke="#110522" stroke-width="2"/>
+        <circle cx="295" cy="425" r="6" fill="#facc15" stroke="#110522" stroke-width="2"/>
+
+        <!-- Neck Opening -->
+        <ellipse cx="250" cy="185" rx="55" ry="22" fill="#bae6fd" stroke="#110522" stroke-width="5"/>
+      </g>
+    </svg>

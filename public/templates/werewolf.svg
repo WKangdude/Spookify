@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+      <defs>
+        <filter id="wolf-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+        </filter>
+        <pattern id="plaid" width="30" height="30" patternUnits="userSpaceOnUse">
+          <rect width="30" height="30" fill="#dc2626"/>
+          <rect width="15" height="30" fill="#991b1b" opacity="0.6"/>
+          <rect width="30" height="15" fill="#110522" opacity="0.4"/>
+        </pattern>
+      </defs>
+      <g filter="url(#wolf-shadow)">
+        <!-- Muscular Furry Werewolf Arms -->
+        <path d="M175 220 L95 270 Q80 290 90 320 Q110 335 130 315 L190 260 Z" fill="#78350f" stroke="#110522" stroke-width="6"/>
+        <!-- Claws Left -->
+        <polygon points="75,315 60,335 80,330" fill="#fef08a" stroke="#110522" stroke-width="3"/>
+        <polygon points="85,325 75,350 95,340" fill="#fef08a" stroke="#110522" stroke-width="3"/>
+        <polygon points="100,330 95,355 110,345" fill="#fef08a" stroke="#110522" stroke-width="3"/>
+
+        <path d="M325 220 L405 270 Q420 290 410 320 Q390 335 370 315 L310 260 Z" fill="#78350f" stroke="#110522" stroke-width="6"/>
+        <!-- Claws Right -->
+        <polygon points="425,315 440,335 420,330" fill="#fef08a" stroke="#110522" stroke-width="3"/>
+        <polygon points="415,325 425,350 405,340" fill="#fef08a" stroke="#110522" stroke-width="3"/>
+        <polygon points="400,330 405,355 390,345" fill="#fef08a" stroke="#110522" stroke-width="3"/>
+
+        <!-- Torn Red Plaid Flannel Shirt -->
+        <path d="M165 195 Q250 230 335 195 L345 390 L320 405 L295 385 L265 405 L235 385 L205 405 L155 390 Z" fill="url(#plaid)" stroke="#110522" stroke-width="6"/>
+
+        <!-- Shredded chest revealing brown fur -->
+        <polygon points="220,205 280,205 250,300" fill="#542307" stroke="#110522" stroke-width="4"/>
+        <path d="M235 240 L250 270 L265 240" stroke="#78350f" stroke-width="5" fill="none"/>
+
+        <!-- Torn Denim Jeans -->
+        <path d="M175 395 L240 395 L235 500 L210 480 L185 505 L170 485 Z" fill="#1e3a5f" stroke="#110522" stroke-width="6"/>
+        <!-- Furry legs and paws -->
+        <path d="M185 490 L220 490 L225 545 L150 545 Q150 520 180 520 Z" fill="#78350f" stroke="#110522" stroke-width="5"/>
+        <polygon points="145,540 135,550 150,555" fill="#fef08a" stroke="#110522" stroke-width="2"/>
+        <polygon points="160,545 152,555 168,555" fill="#fef08a" stroke="#110522" stroke-width="2"/>
+
+        <path d="M260 395 L325 395 L330 485 L315 505 L290 480 L265 500 Z" fill="#1e3a5f" stroke="#110522" stroke-width="6"/>
+        <path d="M280 490 L315 490 L350 545 L275 545 Q320 520 280 490 Z" fill="#78350f" stroke="#110522" stroke-width="5"/>
+        <polygon points="355,540 365,550 350,555" fill="#fef08a" stroke="#110522" stroke-width="2"/>
+
+        <!-- Neck Opening -->
+        <ellipse cx="250" cy="190" rx="55" ry="22" fill="#542307" stroke="#110522" stroke-width="5"/>
+      </g>
+    </svg>
