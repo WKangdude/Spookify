@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+      <defs>
+        <filter id="witch-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+        </filter>
+        <linearGradient id="witch-robe" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#4c1d95"/>
+          <stop offset="100%" stop-color="#2e1065"/>
+        </linearGradient>
+        <pattern id="witch-stripes" width="20" height="20" patternUnits="userSpaceOnUse">
+          <rect width="20" height="10" fill="#ff7800"/>
+          <rect y="10" width="20" height="10" fill="#110522"/>
+        </pattern>
+      </defs>
+      <g filter="url(#witch-shadow)">
+        <!-- Broomstick slanted in background -->
+        <line x1="70" y1="480" x2="430" y2="240" stroke="#854d0e" stroke-width="14" stroke-linecap="round"/>
+        <!-- Broom bristles -->
+        <path d="M50 490 L95 440 L120 500 L60 530 Z" fill="#eab308" stroke="#110522" stroke-width="5"/>
+        <line x1="75" y1="475" x2="90" y2="515" stroke="#ca8a04" stroke-width="3"/>
+
+        <!-- Potion vial in left hand -->
+        <path d="M125 290 L115 330 Q110 350 135 350 Q160 350 155 330 L145 290 Z" fill="#22c55e" stroke="#110522" stroke-width="4"/>
+        <rect x="127" y="282" width="16" height="8" rx="2" fill="#d97706" stroke="#110522" stroke-width="3"/>
+        <circle cx="135" cy="330" r="5" fill="#a3e635"/>
+
+        <!-- Green Witch Hands -->
+        <circle cx="140" cy="320" r="16" fill="#84cc16" stroke="#110522" stroke-width="4"/>
+        <circle cx="360" cy="285" r="16" fill="#84cc16" stroke="#110522" stroke-width="4"/>
+
+        <!-- Witch Dress / Robe -->
+        <path d="M185 205 L315 205 L370 440 L130 440 Z" fill="url(#witch-robe)" stroke="#110522" stroke-width="6"/>
+
+        <!-- Orange Corset & Belt -->
+        <path d="M210 240 L290 240 L280 330 L220 330 Z" fill="#ea580c" stroke="#110522" stroke-width="5"/>
+        <!-- Criss cross lace -->
+        <line x1="225" y1="260" x2="275" y2="290" stroke="#fef08a" stroke-width="3"/>
+        <line x1="275" y1="260" x2="225" y2="290" stroke="#fef08a" stroke-width="3"/>
+        <line x1="225" y1="290" x2="275" y2="320" stroke="#fef08a" stroke-width="3"/>
+        <line x1="275" y1="290" x2="225" y2="320" stroke="#fef08a" stroke-width="3"/>
+
+        <!-- Gold Star Embellishment -->
+        <polygon points="250,370 256,385 272,385 259,395 264,410 250,400 236,410 241,395 228,385 244,385" fill="#facc15"/>
+
+        <!-- Striped Stockings -->
+        <rect x="195" y="440" width="35" height="85" fill="url(#witch-stripes)" stroke="#110522" stroke-width="5"/>
+        <rect x="270" y="440" width="35" height="85" fill="url(#witch-stripes)" stroke="#110522" stroke-width="5"/>
+
+        <!-- Pointed Curly Witch Shoes with Gold Buckles -->
+        <path d="M150 545 Q160 515 230 515 L230 555 L160 555 Q130 555 140 535 Q145 520 135 515 Z" fill="#110522" stroke="#110522" stroke-width="6"/>
+        <rect x="190" y="520" width="22" height="18" fill="#facc15" stroke="#110522" stroke-width="3"/>
+
+        <path d="M350 545 Q340 515 270 515 L270 555 L340 555 Q370 555 360 535 Q355 520 365 515 Z" fill="#110522" stroke="#110522" stroke-width="6"/>
+        <rect x="288" y="520" width="22" height="18" fill="#facc15" stroke="#110522" stroke-width="3"/>
+
+        <!-- Neck Opening -->
+        <ellipse cx="250" cy="195" rx="55" ry="22" fill="#3b0764" stroke="#110522" stroke-width="5"/>
+      </g>
+    </svg>
