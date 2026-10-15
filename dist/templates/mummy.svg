@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+      <defs>
+        <filter id="mummy-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+        </filter>
+        <linearGradient id="bandage" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#fef3c7"/>
+          <stop offset="100%" stop-color="#e2d9b6"/>
+        </linearGradient>
+      </defs>
+      <g filter="url(#mummy-shadow)">
+        <!-- Loose hanging bandages background -->
+        <path d="M140 270 Q110 340 100 410 Q115 415 125 390 Q145 320 155 280 Z" fill="#d6cba6" stroke="#110522" stroke-width="4"/>
+        <path d="M350 280 Q380 350 395 420 Q380 425 370 400 Q350 330 340 290 Z" fill="#d6cba6" stroke="#110522" stroke-width="4"/>
+
+        <!-- Outstretched Zombie-walking arms -->
+        <!-- Left arm -->
+        <path d="M185 220 L100 240 Q75 250 85 275 Q100 290 120 280 L185 260 Z" fill="url(#bandage)" stroke="#110522" stroke-width="6"/>
+        <!-- Left wrap lines -->
+        <line x1="120" y1="235" x2="130" y2="280" stroke="#a39872" stroke-width="4"/>
+        <line x1="150" y1="228" x2="158" y2="270" stroke="#a39872" stroke-width="4"/>
+        <!-- Hand wrapped -->
+        <ellipse cx="85" cy="265" rx="18" ry="16" fill="#fef3c7" stroke="#110522" stroke-width="5"/>
+        <path d="M70 260 Q85 270 95 260" stroke="#a39872" stroke-width="3"/>
+
+        <!-- Right arm -->
+        <path d="M315 220 L400 240 Q425 250 415 275 Q400 290 380 280 L315 260 Z" fill="url(#bandage)" stroke="#110522" stroke-width="6"/>
+        <line x1="380" y1="235" x2="370" y2="280" stroke="#a39872" stroke-width="4"/>
+        <line x1="350" y1="228" x2="342" y2="270" stroke="#a39872" stroke-width="4"/>
+        <ellipse cx="415" cy="265" rx="18" ry="16" fill="#fef3c7" stroke="#110522" stroke-width="5"/>
+        <path d="M400 260 Q415 270 425 260" stroke="#a39872" stroke-width="3"/>
+
+        <!-- Torso with criss-cross bandages -->
+        <path d="M180 190 Q250 220 320 190 L330 390 L170 390 Z" fill="#fef3c7" stroke="#110522" stroke-width="6"/>
+        <!-- Cross wrap strips -->
+        <path d="M175 220 L325 260 L320 285 L173 245 Z" fill="#e8dfbd" stroke="#110522" stroke-width="3"/>
+        <path d="M322 280 L172 320 L170 345 L325 305 Z" fill="#d9ce9e" stroke="#110522" stroke-width="3"/>
+        <path d="M170 340 L330 375 L328 395 L170 365 Z" fill="#e8dfbd" stroke="#110522" stroke-width="3"/>
+
+        <!-- Gold Scarab Collar / Medallion -->
+        <path d="M220 220 C235 245 265 245 280 220 Z" fill="#f59e0b" stroke="#110522" stroke-width="4"/>
+        <circle cx="250" cy="245" r="14" fill="#06b6d4" stroke="#110522" stroke-width="3"/>
+        <polygon points="250,237 257,249 243,249" fill="#fef08a"/>
+
+        <!-- Mummy wrapped legs -->
+        <!-- Left Leg -->
+        <path d="M180 390 L240 390 L230 530 L170 530 Z" fill="#fef3c7" stroke="#110522" stroke-width="6"/>
+        <line x1="178" y1="420" x2="238" y2="430" stroke="#a39872" stroke-width="4"/>
+        <line x1="175" y1="460" x2="235" y2="470" stroke="#a39872" stroke-width="4"/>
+        <line x1="172" y1="500" x2="232" y2="510" stroke="#a39872" stroke-width="4"/>
+        <!-- Left Foot wrapped -->
+        <path d="M150 550 Q170 530 230 530 L235 560 L145 560 Z" fill="#e2d9b6" stroke="#110522" stroke-width="6"/>
+
+        <!-- Right Leg -->
+        <path d="M260 390 L320 390 L330 530 L270 530 Z" fill="#fef3c7" stroke="#110522" stroke-width="6"/>
+        <line x1="262" y1="430" x2="322" y2="420" stroke="#a39872" stroke-width="4"/>
+        <line x1="265" y1="470" x2="325" y2="460" stroke="#a39872" stroke-width="4"/>
+        <line x1="268" y1="510" x2="328" y2="500" stroke="#a39872" stroke-width="4"/>
+        <!-- Right Foot wrapped -->
+        <path d="M350 550 Q330 530 270 530 L265 560 L355 560 Z" fill="#e2d9b6" stroke="#110522" stroke-width="6"/>
+
+        <!-- Neck opening scoop -->
+        <ellipse cx="250" cy="185" rx="55" ry="22" fill="#d6cba6" stroke="#110522" stroke-width="5"/>
+      </g>
+    </svg>

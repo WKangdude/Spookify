@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+      <defs>
+        <filter id="sticker-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+        </filter>
+        <linearGradient id="overalls" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#2563eb"/>
+          <stop offset="100%" stop-color="#1d4ed8"/>
+        </linearGradient>
+        <pattern id="stripes" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+          <rect width="10" height="40" fill="#ef4444"/>
+          <rect x="10" width="10" height="40" fill="#3b82f6"/>
+          <rect x="20" width="10" height="40" fill="#10b981"/>
+          <rect x="30" width="10" height="40" fill="#f59e0b"/>
+        </pattern>
+      </defs>
+
+      <g filter="url(#sticker-shadow)">
+        <!-- Arms with striped shirt -->
+        <!-- Left arm -->
+        <path d="M190 220 L120 290 Q105 305 115 325 Q130 340 145 320 L205 250 Z" fill="url(#stripes)" stroke="#110522" stroke-width="6" stroke-linejoin="round"/>
+        <!-- Left hand (plastic toy dagger) -->
+        <circle cx="115" cy="330" r="22" fill="#fbcfe8" stroke="#110522" stroke-width="5"/>
+        <path d="M100 320 L60 270 L80 260 L115 310 Z" fill="#94a3b8" stroke="#110522" stroke-width="5"/>
+        <path d="M95 315 L125 330" stroke="#b91c1c" stroke-width="6" stroke-linecap="round"/>
+
+        <!-- Right arm -->
+        <path d="M310 220 L380 290 Q395 305 385 325 Q370 340 355 320 L295 250 Z" fill="url(#stripes)" stroke="#110522" stroke-width="6" stroke-linejoin="round"/>
+        <!-- Right hand -->
+        <circle cx="385" cy="330" r="22" fill="#fbcfe8" stroke="#110522" stroke-width="5"/>
+
+        <!-- Torso: Striped long sleeve under overalls -->
+        <path d="M185 200 Q250 230 315 200 L330 360 L170 360 Z" fill="url(#stripes)" stroke="#110522" stroke-width="6"/>
+
+        <!-- Overalls bib -->
+        <path d="M180 260 L320 260 L335 430 L165 430 Z" fill="url(#overalls)" stroke="#110522" stroke-width="6" stroke-linejoin="round"/>
+        <!-- Overall Straps -->
+        <path d="M190 205 L215 265 L185 265 L165 205 Z" fill="#1d4ed8" stroke="#110522" stroke-width="5"/>
+        <circle cx="200" cy="275" r="10" fill="#dc2626" stroke="#110522" stroke-width="4"/>
+        <circle cx="200" cy="275" r="3" fill="#ffffff"/>
+
+        <path d="M310 205 L285 265 L315 265 L335 205 Z" fill="#1d4ed8" stroke="#110522" stroke-width="5"/>
+        <circle cx="300" cy="275" r="10" fill="#dc2626" stroke="#110522" stroke-width="4"/>
+        <circle cx="300" cy="275" r="3" fill="#ffffff"/>
+
+        <!-- "Good Guys" emblem pocket -->
+        <rect x="220" y="295" width="60" height="48" rx="8" fill="#1e40af" stroke="#110522" stroke-width="4"/>
+        <path d="M230 315 H270" stroke="#facc15" stroke-width="5" stroke-linecap="round"/>
+        <path d="M235 325 H265" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+
+        <!-- Legs & Cuffs -->
+        <!-- Left Leg -->
+        <path d="M165 430 L240 430 L235 520 L160 520 Z" fill="url(#overalls)" stroke="#110522" stroke-width="6"/>
+        <rect x="155" y="505" width="85" height="20" rx="4" fill="url(#stripes)" stroke="#110522" stroke-width="4"/>
+
+        <!-- Right Leg -->
+        <path d="M260 430 L335 430 L340 520 L265 520 Z" fill="url(#overalls)" stroke="#110522" stroke-width="6"/>
+        <rect x="260" y="505" width="85" height="20" rx="4" fill="url(#stripes)" stroke="#110522" stroke-width="4"/>
+
+        <!-- Red High-top Shoes -->
+        <path d="M140 540 Q150 520 195 520 Q240 520 245 540 L245 565 Q220 575 145 575 Q135 560 140 540 Z" fill="#dc2626" stroke="#110522" stroke-width="6"/>
+        <path d="M145 570 Q195 580 245 570" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+
+        <path d="M360 540 Q350 520 305 520 Q260 520 255 540 L255 565 Q280 575 355 575 Q365 560 360 540 Z" fill="#dc2626" stroke="#110522" stroke-width="6"/>
+        <path d="M255 570 Q305 580 355 570" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+
+        <!-- Collar cutout for neck attachment -->
+        <path d="M195 195 C220 215 280 215 305 195 C285 225 215 225 195 195 Z" fill="#b91c1c" stroke="#110522" stroke-width="5"/>
+      </g>
+    </svg>
